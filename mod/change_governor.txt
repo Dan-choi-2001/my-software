@@ -1,0 +1,6 @@
+sudo gedit /etc/default/cpufrequtils
+	set GOVERNOR="performance" or GOVERNOR="powersave"
+
+sudo systemctl restart cpufrequtils
+
+cpufreq-info

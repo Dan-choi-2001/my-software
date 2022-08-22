@@ -1,0 +1,3 @@
+https://github.com/microsoft/vscode-jupyter/issues/1626#issuecomment-901967360
+
+pkill -f 'ipykernel'
