@@ -1,0 +1,1 @@
+xinput --set-prop $(xinput --list | grep 'DELL08EA:00 06CB:CCA8 Touchpad' | awk '{print $6}'| cut -d'=' -f2) "libinput Scrolling Pixel Distance" 45

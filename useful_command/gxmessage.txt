@@ -1,0 +1,1 @@
+gxmessage -center -ontop "End pomodoro!" -geometry 400x200 -title counter -font "30"
