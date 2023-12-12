@@ -18,7 +18,7 @@ EndSection
 
 Next, to confirm that acceleration has been disabled, enter the following (you can change the number from 50 to 100, ...):
 ```shell
-xinput list-props {1..50} 2>/dev/null | awk -F"'" '/Device '\''/{device=$2} /libinput Accel Profile Enabled \(364\)/{print device, $0}'
+xinput list-props {1..50} 2>/dev/null | awk -F"'" '/Device '\''/{device=$2} /libinput Accel Profile Enabled \(/{print device, $0}'
 ```
 The profile should read `0, 1`.
 
