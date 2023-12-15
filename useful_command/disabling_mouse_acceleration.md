@@ -24,3 +24,23 @@ The profile should read `0, 1`.
 
 # Source:
 - https://wiki.archlinux.org/title/Mouse_acceleration#Disabling_mouse_acceleration
+
+# Bonus:
+You can print out a nicer version if you use the following command:
+```bash
+xinput list-props {1..50} 2>/dev/null | awk -F"'" '
+    BEGIN {
+        line="+" sprintf("%-42s", "") "+" sprintf("%-51s", "") "+"
+        gsub(/ /, "-", line)
+        print line
+    }
+    /Device '\''/ {
+        device=$2
+    }
+    /libinput Accel Profile Enabled \(/{ 
+        printf("| %-40s | %-45s |\n", device, $0)
+        gsub(/ /, "-", line)
+        print line
+    }
+'
+```
