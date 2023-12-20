@@ -6,7 +6,7 @@ sudo apt install i8kutils
 
 - check setting in i8kmon
 ```bash
-i8kmon -v
+i8kmon -v -t 1
 ```
 
 - change config i8k
