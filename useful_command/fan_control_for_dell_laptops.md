@@ -1,3 +1,4 @@
+# Not sure if it works yet
 - install i8k
 ```bash
 sudo apt install i8kutils
