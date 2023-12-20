@@ -13,7 +13,12 @@ i8kmon -v
 sudo gedit /etc/i8kmon.conf
 ```
 
-- make i8k work every time the laptop is turned on
+- use i8k every time restart laptop:
+```bash
+sudo modprobe i8k force=1
+```
+
+- make i8k work every time the laptop is turned on (currently not working)
 ```bash
 echo "options i8k force=1" | sudo tee /etc/modprobe.d/i8k.conf
 ```
