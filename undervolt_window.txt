@@ -1,0 +1,2 @@
+Using a laptop for a while will cause the device to overheat. To solve this problem, I use ThrottleStop, this is a very effective tool that allows us to adjust the voltage of the CPU (we can Overclocking with this software is also possible), details are in this article:
+https://www.ultrabookreview.com/31385-the-throttlestop-guide/

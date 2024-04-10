@@ -1,2 +1,0 @@
-Sử dụng laptop một thời gian sẽ có tình trạng nóng máy, để giải quyết vấn đề này thì tui sử dụng ThrottleStop, đây là một công cụ rất hiệu quả cho phép ta có thể điều chỉnh hiệu điện thế của CPU (tức là có thể ép xung bằng phần mềm này cũng được), chi tiết có trong bài viết này: 
-https://www.ultrabookreview.com/31385-the-throttlestop-guide/
